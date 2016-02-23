@@ -2,9 +2,6 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-/**
- * Created by Joe on 2/22/16.
- */
 public class ParserTest {
     String inputToTest = "naMe:Milk;price:3.23;type:Food;expiration:1/25/2016";
     @Test
@@ -25,5 +22,4 @@ public class ParserTest {
         assertTrue("getExpiration() failed",Parser.getExpiration(inputToTest).equals("1/25/2016"));
         System.out.println("getExpiration() Passed");
     }
-    //ITEM.PARSEITEMSTRING?
 }
