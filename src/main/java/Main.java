@@ -6,12 +6,12 @@ import static java.nio.file.Paths.get;
 
 public class Main {
 
-    public String readRawDataToString() throws Exception{
+    public static String readRawDataToString() throws Exception{
         Path path = Paths.get(ClassLoader.getSystemResource("RawData.txt").toURI());
         return new String(readAllBytes(get(path.toUri())));
     }
 
     public static void main(String[] args) throws Exception{
-
+        Parser test = new Parser();
     }
 }
