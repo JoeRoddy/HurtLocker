@@ -1,6 +1,3 @@
-/**
- * Created by Joe on 2/22/16.
- */
 public class Item {
     private String item;
     private String price;

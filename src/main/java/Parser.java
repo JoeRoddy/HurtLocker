@@ -1,11 +1,7 @@
 import java.util.ArrayList;
-import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * Created by Joe on 2/22/16.
- */
 public class Parser {
     String input;
     static ArrayList<String> lineList = new ArrayList<String>();
